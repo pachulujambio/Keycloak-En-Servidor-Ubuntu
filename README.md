@@ -181,6 +181,6 @@ systemctl restart keycloak
 /opt/keycloak/bin/kcadm.sh update realms/master -s sslRequired=NONE
 ```
 
-Ahora se podrá acceder al Administrador de Keycloak (http://your-server-ip:8080/auth/admin).
+Ahora se podrá acceder al Administrador de Keycloak (http://{IP-SERVIDOR}:8080/auth/admin).
 
 
