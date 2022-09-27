@@ -176,7 +176,7 @@ systemctl restart keycloak
 
 *Deshabilitar HTTPS para keycloak*
 ```console
-/opt/keycloak/bin/kcadm.sh config credentials --server http://your-server-ip:8080/auth --realm master --user admin
+/opt/keycloak/bin/kcadm.sh config credentials --server http://{IP-SERVIDOR}:8080/auth --realm master --user admin
 # Ingresar contraseña
 /opt/keycloak/bin/kcadm.sh update realms/master -s sslRequired=NONE
 ```
