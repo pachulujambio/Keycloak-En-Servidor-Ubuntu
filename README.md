@@ -183,7 +183,4 @@ systemctl restart keycloak
 
 Ahora se podrá acceder al Administrador de Keycloak (http://your-server-ip:8080/auth/admin).
 
-## Interfaz de keycloak 
-Seleccionar usuario y contraseña en el administrador e iniciar sesión para comenzar a crear los realms(reinos) y clients(clientes). 
-
 
